@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:scaleType="centerCrop"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fecha :20/Julio/2019"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="20dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Velociraptor (lat. «ladrón veloz»), en castellano velocirráptor, es un género de dinosaurios terópodos dromeosáuridos que vivieron durante el Campaniano, hacia finales del período Cretácico, hace unos 70 a 65 millones de años, en lo que es hoy Asia. "
+            android:layout_marginLeft="20dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp">
+
+            <Button
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/like"
+
+                android:layout_marginTop="30dp"
+                android:backgroundTint="#DDD"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="592 Views"
+                android:textStyle="bold"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentRight="true"
+        android:padding="20dp"
+        android:background="@drawable/delete"/>
+
+
+</RelativeLayout>
